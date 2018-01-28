@@ -18,7 +18,7 @@ groups << Group.create(name: "Colleagues").id#2
 contacts = []
 
 #generate 20 fake data
-40.times do |i|
+20.times do |i|
     new_contact = {
         id: i,
         name: Faker::Name.name,
