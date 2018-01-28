@@ -35,6 +35,8 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 #Install faker to create fake data
 gem 'faker', '~> 1.8', '>= 1.8.7'
+#Bootsrap-will_paginate
+gem 'bootstrap-will_paginate', '~> 1.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
