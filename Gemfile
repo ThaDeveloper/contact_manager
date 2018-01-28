@@ -37,6 +37,10 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'faker', '~> 1.8', '>= 1.8.7'
 #Bootsrap-will_paginate
 gem 'bootstrap-will_paginate', '~> 1.0'
+#paperclip image upload
+gem 'paperclip', '~> 5.2', '>= 5.2.1'
+#Jasny-bootstrap
+gem 'jasny-bootstrap-rails', '~> 3.1', '>= 3.1.3'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
