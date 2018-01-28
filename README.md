@@ -13,3 +13,5 @@ A sleek contact manager built in ROR. The following gems were used:
 * PaperClip
 
 * Jasny bootstrap rails
+
+![App Overview](https://github.com/ThaDeveloper/contact_manager/blob/master/public/images/contact_manager.png)
