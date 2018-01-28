@@ -1,7 +1,12 @@
 class ContactsController < ApplicationController
   before_action :find_contact, only: [:edit, :update, :destroy]
   def index
-    @contacts = Contact.paginate(page: params[:page], per_page: 10)
+    if params[:group_id]
+      @group = Group.find(params[:group_id])
+      @contacts = @group.contacts.paginate(page: params[:page], per_page: 10)
+    else
+      @contacts = Contact.paginate(page: params[:page], per_page: 10)
+    end
   end
 
   def new
@@ -43,6 +48,6 @@ class ContactsController < ApplicationController
   end
 
   def contact_params
-    params.require(:contact).permit(:name, :email, :company, :address, :phone, :avatar)
+    params.require(:contact).permit(:name, :email, :company, :address, :phone, :avatar, :group_id)
   end
 end
