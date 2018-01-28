@@ -1,24 +1,9 @@
-# README
+#Contact Manager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A sleek contact manager built in ROR. The following gems were used:
 
-Things you may want to cover:
+* Bootstrap
 
-* Ruby version
+* Faker
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Jquery Rails
